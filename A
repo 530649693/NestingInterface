@@ -47,5 +47,7 @@ interface E{
 		void f();
 	} 
 	void g();
+	//不能在接口内部创建私有类型接口
+	//! private interface I {} 
 }
 
